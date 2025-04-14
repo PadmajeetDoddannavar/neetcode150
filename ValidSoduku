@@ -18,7 +18,7 @@ class Solution {
                     continue;
                 }
 
-                // Check the row
+            
                 if (rows[r].contains(val)) {
                     return false;
                 }
