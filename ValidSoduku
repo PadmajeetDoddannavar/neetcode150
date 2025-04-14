@@ -14,7 +14,6 @@ class Solution {
             for (int c = 0; c < N; c++) {
                 char val = board[r][c];
 
-                // Check if the position is filled with number
                 if (val == '.') {
                     continue;
                 }
