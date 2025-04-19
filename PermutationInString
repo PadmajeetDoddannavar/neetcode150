@@ -22,7 +22,7 @@ public class Solution {
             s2Map[s2.charAt(i) - 'a']--; // Remove old character from the window
         }
 
-        // Check the last window
+    
         return matches(s1Map, s2Map);
     }
 
