@@ -1,4 +1,4 @@
-class Solution {
+bbclass Solution {
     public int[] productExceptSelf(int[] nums) {
         
         int [] result = new int[nums.length];
