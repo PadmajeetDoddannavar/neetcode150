@@ -17,7 +17,7 @@ public class Solution {
                 deque.poll();
             }
 
-            // Remove indices whose corresponding values are less than nums[i]
+            
             while (!deque.isEmpty() && nums[deque.peekLast()] < nums[i]) {
                 deque.pollLast();
             }
